@@ -1,0 +1,6 @@
+{
+  "name": "Chase Core Banking System",
+  "description": "A pixel-accurate mobile banking UI replica of J.P. Morgan Chase featuring savings and checking account details, transaction ledger histories, internal and wire transfers, loan applications, KYC document submission, and a backoffice administrative control panel.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

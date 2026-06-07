@@ -1,0 +1,287 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "account_number": "1000000001",
+      "first_name": "Admin",
+      "last_name": "Staff",
+      "username": "adminia",
+      "email": "admin@example.com",
+      "phone": "+1000000000",
+      "kyc_status": "VERIFIED",
+      "preferred_currency": "USD",
+      "balance": 500000,
+      "role": "ADMIN",
+      "status": "ACTIVE",
+      "pin": "9999",
+      "password": "Password123"
+    },
+    {
+      "id": 2,
+      "account_number": "9513639346",
+      "second_account_number": "9513637590",
+      "first_name": "John",
+      "last_name": "smith",
+      "surname": "John",
+      "middle_name": "camo",
+      "username": "John camo",
+      "email": "johnprivate677i@gmail.com",
+      "phone": "",
+      "kyc_status": "VERIFIED",
+      "preferred_currency": "USD",
+      "balance": 1730000,
+      "savings_balance": 865000,
+      "checking_balance": 865000,
+      "role": "USER",
+      "status": "ACTIVE",
+      "pin": "2090",
+      "password": "cupcake123456",
+      "date_of_birth": "January 14, 1971",
+      "country": "United States of America",
+      "state": "North Carolina",
+      "city": "charlotte",
+      "billing_message": "",
+      "gender": "Male",
+      "occupation": "contractor",
+      "full_address": "2205 Terrell Pl",
+      "picture": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&q=80&w=400"
+    }
+  ],
+  "transfers": [
+    {
+      "id": 99,
+      "user_id": 2,
+      "transfer_type": "EXTERNAL",
+      "amount": 150000,
+      "recipient_name": "KIMBERLY STATZER",
+      "recipient_bank": "Wells Fargo CLT",
+      "recipient_account_number": "175920396482",
+      "description": "Escrow Transfer Verification Pending",
+      "status": "PENDING",
+      "created_at": "2026-06-06T21:42:38.306Z",
+      "from_account": "checking"
+    },
+    {
+      "id": 1,
+      "user_id": 2,
+      "transfer_type": "EXTERNAL",
+      "amount": 150000,
+      "recipient_name": "Sovereign Clearing Credit",
+      "recipient_bank": "Federal Reserve",
+      "recipient_account_number": "110294821",
+      "description": "Federal Contract Credit - John camo",
+      "status": "COMPLETED",
+      "created_at": "2026-06-05T09:30:00.000Z",
+      "from_account": "checking"
+    },
+    {
+      "id": 2,
+      "user_id": 2,
+      "transfer_type": "EXTERNAL",
+      "amount": 45000,
+      "recipient_name": "Charlotte Custom Homes",
+      "recipient_bank": "Bank of America",
+      "recipient_account_number": "982741029",
+      "description": "Downpayment - Charlotte Terrell Pl",
+      "status": "COMPLETED",
+      "created_at": "2026-06-04T14:20:00.000Z",
+      "from_account": "checking"
+    },
+    {
+      "id": 3,
+      "user_id": 2,
+      "transfer_type": "EXTERNAL",
+      "amount": 25000,
+      "recipient_name": "Escrow Deposit Release",
+      "recipient_bank": "Wells Fargo Bank",
+      "recipient_account_number": "721958210",
+      "description": "Escrow Balance Deposit",
+      "status": "COMPLETED",
+      "created_at": "2026-06-03T11:15:00.000Z",
+      "from_account": "savings"
+    },
+    {
+      "id": 4,
+      "user_id": 2,
+      "transfer_type": "EXTERNAL",
+      "amount": 1540,
+      "recipient_name": "Sovereign Tax Board",
+      "recipient_bank": "NC Treasury",
+      "recipient_account_number": "882710492",
+      "description": "Contractor License Settle",
+      "status": "COMPLETED",
+      "created_at": "2026-06-02T16:45:00.000Z",
+      "from_account": "checking"
+    },
+    {
+      "id": 5,
+      "user_id": 2,
+      "transfer_type": "EXTERNAL",
+      "amount": 85200,
+      "recipient_name": "JPM Bonus Credit",
+      "recipient_bank": "JP Morgan Chase",
+      "recipient_account_number": "9513637590",
+      "description": "Brokerage Welcome Deposit",
+      "status": "COMPLETED",
+      "created_at": "2026-06-01T10:00:00.000Z",
+      "from_account": "checking"
+    },
+    {
+      "id": 6,
+      "user_id": 2,
+      "transfer_type": "EXTERNAL",
+      "amount": 450,
+      "recipient_name": "North Carolina Energy Grid",
+      "recipient_bank": "Duke Energy",
+      "recipient_account_number": "662719582",
+      "description": "Energy Power Billing",
+      "status": "COMPLETED",
+      "created_at": "2026-05-30T19:20:00.000Z",
+      "from_account": "savings"
+    },
+    {
+      "id": 7,
+      "user_id": 2,
+      "transfer_type": "EXTERNAL",
+      "amount": 33240,
+      "recipient_name": "Wire Deposit Chase",
+      "recipient_bank": "Chase Business",
+      "recipient_account_number": "9513637590",
+      "description": "Contracting Project Settlement",
+      "status": "COMPLETED",
+      "created_at": "2026-05-28T08:15:00.000Z",
+      "from_account": "checking"
+    },
+    {
+      "id": 8,
+      "user_id": 2,
+      "transfer_type": "EXTERNAL",
+      "amount": 28500,
+      "recipient_name": "Equipment Depot LLC",
+      "recipient_bank": "PNC Bank",
+      "recipient_account_number": "555192842",
+      "description": "Steel & Timber Supplies CLT",
+      "status": "COMPLETED",
+      "created_at": "2026-05-26T12:00:00.000Z",
+      "from_account": "checking"
+    },
+    {
+      "id": 9,
+      "user_id": 2,
+      "transfer_type": "EXTERNAL",
+      "amount": 15000,
+      "recipient_name": "Federal Loan Disbursement",
+      "recipient_bank": "Chase Mobile",
+      "recipient_account_number": "9513637590",
+      "description": "Disbursement Principal Loan #892",
+      "status": "COMPLETED",
+      "created_at": "2026-05-25T14:00:00.000Z",
+      "from_account": "checking"
+    },
+    {
+      "id": 10,
+      "user_id": 2,
+      "transfer_type": "EXTERNAL",
+      "amount": 4250,
+      "recipient_name": "CLT Custom Freight",
+      "recipient_bank": "SunTrust Bank",
+      "recipient_account_number": "444210928",
+      "description": "Clearing Custom Broker Services",
+      "status": "COMPLETED",
+      "created_at": "2026-05-24T15:30:00.000Z",
+      "from_account": "checking"
+    },
+    {
+      "id": 12,
+      "user_id": 2,
+      "transfer_type": "INTERNAL",
+      "amount": 2000,
+      "recipient_name": "23232223333",
+      "recipient_bank": "Chase Mobile",
+      "recipient_account_number": "23232223333",
+      "description": "property maintainance",
+      "status": "PENDING",
+      "created_at": "2026-06-06T21:56:07.968Z",
+      "from_account": "checking"
+    },
+    {
+      "id": 13,
+      "user_id": 2,
+      "transfer_type": "INTERNAL",
+      "amount": 2000,
+      "recipient_name": "367347444",
+      "recipient_bank": "Chase Mobile",
+      "recipient_account_number": "367347444",
+      "description": "SJICNIFF",
+      "status": "PENDING",
+      "created_at": "2026-06-06T22:53:30.680Z",
+      "from_account": "checking"
+    }
+  ],
+  "loans": [
+    {
+      "id": 1,
+      "user_id": 2,
+      "requested_amount": 15000,
+      "purpose": "Home Improvement",
+      "repayment_months": 12,
+      "monthly_payment": 1300,
+      "interest_rate": 5.5,
+      "status": "APPROVED",
+      "disbursement_fee": 100,
+      "disbursement_fee_paid": true,
+      "disbursed": true,
+      "created_at": "2026-05-15T14:00:00.000Z"
+    }
+  ],
+  "tokens": {
+    "a1b2c3d4-e5f6-7a8b-9c0d-e1f2a3b4c5d6": 2,
+    "db3nfsae7ql-5a9liyl1w3j": 2,
+    "dfj75aunmgk-zqxoh525ftf": 2
+  },
+  "activities": [
+    {
+      "id": 1,
+      "user_id": 2,
+      "action": "User Logged In",
+      "ip": "192.168.1.50",
+      "timestamp": "2026-06-05T10:00:00.000Z"
+    },
+    {
+      "id": 2,
+      "user_id": 2,
+      "action": "Viewed Account Summary",
+      "ip": "192.168.1.50",
+      "timestamp": "2026-06-05T10:15:00.000Z"
+    },
+    {
+      "id": 3,
+      "user_id": 1,
+      "action": "System Health Checks",
+      "ip": "127.0.0.1",
+      "timestamp": "2026-06-05T11:00:00.000Z"
+    },
+    {
+      "id": 4,
+      "user_id": 2,
+      "action": "User Logged In (johnprivate677i@gmail.com)",
+      "ip": "127.0.0.1",
+      "timestamp": "2026-06-06T21:44:02.416Z"
+    },
+    {
+      "id": 5,
+      "user_id": 2,
+      "action": "User Logged In (johnprivate677i@gmail.com)",
+      "ip": "127.0.0.1",
+      "timestamp": "2026-06-06T21:52:32.661Z"
+    },
+    {
+      "id": 6,
+      "user_id": 2,
+      "action": "User Logged In (johnprivate677i@gmail.com)",
+      "ip": "127.0.0.1",
+      "timestamp": "2026-06-06T22:49:55.031Z"
+    }
+  ],
+  "transferSimulationMode": "COMPLETED"
+}
